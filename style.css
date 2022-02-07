@@ -1,0 +1,84 @@
+#body-div {
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: rgb(71, 7, 73);
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.calculator {
+  min-height: 600px;
+  background-color: steelblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cal-header {
+  background-color: white;
+  min-height: 150px;
+  width: 100%;
+  font-size: 2rem;
+  text-align: right;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.cla-body {
+  height: 450px;
+  width: 100%;
+  background-color: blue;
+  padding-top: 40px;
+}
+
+/*  */
+.cal-body-line1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cal-btn {
+  background-color: darkcyan;
+  color: rgb(255, 255, 255);
+  width: 25%;
+  font-size: 3rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  margin: 1px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+}
+/*  */
+.img {
+  width: 50px;
+  margin: auto;
+  padding: auto;
+}
+/*  */
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9,
+#btncl,
+#btnwl,
+#btnmd1,
+#btnmd2 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
